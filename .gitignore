@@ -1,0 +1,25 @@
+# --- Competition data & artifacts (rules forbid redistributing data; repo is public)
+data/
+outputs/
+*.csv
+*.parquet
+*.zip
+
+# --- Model weights / pickles (large, regenerable)
+*.pt
+*.bin
+*.safetensors
+*.pkl
+*.joblib
+
+# --- Secrets
+kaggle.json
+.env
+
+# --- Python / Jupyter clutter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# --- macOS
+.DS_Store
